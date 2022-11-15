@@ -35,7 +35,7 @@ ul {
 .grid {
     display: grid;
     padding-top: 3rem;
-    grid-gap: 30px;
+    grid-gap: 75px;
     grid-template-columns:repeat(3, 1fr);
 }
 
