@@ -17,7 +17,7 @@ ul {
     padding: 1rem;
 }
 
-img {
+.hero > img {
     width: 100vw;
 }
 
@@ -27,9 +27,18 @@ img {
     height: 300px;
 }
 
+.grid-item img {
+    width: 300px;
+}
+
+
 .grid {
     display: grid;
     padding-top: 3rem;
-    grid-gap: 25px;
+    grid-gap: 30px;
     grid-template-columns:repeat(3, 1fr);
+}
+
+.grid h2 {
+    text-align: center;
 }
